@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucas Lima | Personal Trainer</title>
+
+  <!-- Fonte principal (grade/metálica) -->
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+  <!-- Fonte secundária (futurista para contraste) -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: url('halteres.jpg') no-repeat center center/cover;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.75);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    /* Nome principal em Black Ops One */
+    h1 {
+      font-family: 'Black Ops One', sans-serif;
+      font-size: 3.2rem;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      background: linear-gradient(90deg, #6a0dad, #8000ff, #ffffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 25px rgba(128,0,255,0.7);
+    }
+
+    /* Subtítulo em Orbitron */
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.3rem;
+      font-weight: normal;
+      color: #ccc;
+      margin-top: 10px;
+      margin-bottom: 35px;
+      letter-spacing: 2px;
+    }
+
+    /* Botões */
+    .btn {
+      display: block;
+      width: 260px;
+      margin: 12px auto;
+      padding: 15px;
+      border-radius: 35px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: transform 0.25s, box-shadow 0.25s;
+      border: 2px solid white;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 25px rgba(128, 0, 255, 0.6);
+    }
+
+    .whatsapp {
+      background: linear-gradient(90deg, #25D366, #128C7E);
+      color: white;
+    }
+
+    .instagram {
+      background: linear-gradient(90deg, #6a0dad, #8000ff);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.jpg" alt="Logo Lucas Lima" class="logo">
+
+    <h1>Lucas Lima</h1>
+    <h2>Personal Trainer</h2>
+
+    <a href="https://wa.me/5516997767450" class="btn whatsapp">💬 CONSULTORIA</a>
+    <a href="https://instagram.com/lukinha_delima_" class="btn instagram">📸 Instagram</a>
+    <!-- Barra inferior com bio -->
+<footer>
+  <p>SE FOSSE FÀCIL TODOS FARIAM 💪 | ONE MORE REPEAT</p>
+</footer>
+
+<style>
+  footer {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 15px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-top: 2px solid #6a0dad;
+  }
+
+  footer p {
+    margin: 0;
+    color: #bbb;
+  }
+</style>
+  </div>
+</body>
+</html>    
