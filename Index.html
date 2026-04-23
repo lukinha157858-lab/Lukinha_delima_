@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lucas Lima | Personal Trainer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+font-family:'Orbitron',sans-serif;
+background:url('halteres.jpg') no-repeat center fixed;
+background-size:cover;
+color:#fff;
+}
+
+body::before{
+content:"";
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.45);
+z-index:-1;
+}
+
+.container{
+max-width:420px;
+margin:auto;
+padding:25px 15px 120px;
+text-align:center;
+}
+
+.logo{width:360px;margin-bottom:10px}
+
+h1{
+font-family:'Black Ops One',sans-serif;
+font-size:55px;
+letter-spacing:2px;
+}
+
+h2{color:#1d7a88;margin-bottom:45px}
+
+.menu{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-bottom:30px;
+}
+
+.botao{
+padding:16px;
+border-radius:14px;
+border:1px solid rgba(29,122,136,.6);
+background:rgba(0,0,0,.75);
+text-decoration:none;
+color:#fff;
+font-weight:600;
+cursor:pointer;
+}
+
+section{margin-bottom:40px}
+
+h3{margin-bottom:15px;color:#1d7a88}
+
+.card{
+background:rgba(0,0,0,.78);
+border-radius:18px;
+padding:20px;
+border:1px solid rgba(29,122,136,.6);
+box-shadow:0 10px 30px rgba(0,0,0,.6);
+}
+
+.cards{display:flex;flex-direction:column;gap:20px}
+
+.card ul{
+list-style:none;
+text-align:left;
+font-size:14px;
+margin-bottom:15px;
+}
+
+.card ul li{margin-bottom:6px}
+
+.titulo{font-size:18px;margin-bottom:5px}
+.preco{font-size:22px;color:#1d7a88;margin-bottom:10px}
+
+.contratar{
+display:block;
+padding:14px;
+background:#1d7a88;
+border-radius:12px;
+color:#000;
+font-weight:700;
+text-decoration:none;
+}
+
+/* GALERIA */
+.galeria{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:12px;
+}
+
+.galeria img{
+width:100%;
+border-radius:14px;
+border:1px solid rgba(29,122,136,.6);
+cursor:pointer;
+transition:.3s;
+}
+
+.galeria img:hover{transform:scale(1.05)}
+
+/* MODAL */
+.modal{
+display:none;
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.85);
+justify-content:center;
+align-items:center;
+z-index:999;
+}
+
+.modal img{
+max-width:90%;
+max-height:90%;
+border-radius:16px;
+border:2px solid #1d7a88;
+}
+
+/* WHATSAPP */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:14px 18px;
+border-radius:50px;
+font-weight:700;
+text-decoration:none;
+z-index:1000;
+}
+
+footer{
+margin-top:30px;
+font-size:13px;
+color:#ccc;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo.png" class="logo">
+<h1>LUCAS LIMA</h1>
+<h2>PERSONAL TRAINER</h2>
+
+<div class="menu">
+<a href="#Avaliação1" class="botao">MENU</a>
+<a href="#avaliacao2" class="botao">📈 Avaliação Física Completa</a>
+<a href="#treino" class="botao">🏋️ Treino Personalizado</a>
+<a href="#sobre" class="botao">👤 Sobre mim</a>
+<a href="#certificados" class="botao">📜 Certificados</a>
+<a href="#experiencias" class="botao">🔥 Experiências</a>
+</div>
+
+<section id="avaliacao2">
+<h3>📈 Avaliação Física Completa</h3>
+<div class="card">
+<div class="preco">R$199.90</div>
+<ul>
+<li>Avaliação corporal detalhada dobras</li>
+<li>Anamnese completa</li>
+<li>Estratégia personalizada</li>
+<li>medidas e dobras e composição corporal</li>
+<li>prescrição de treino para seu objetivo</li>
+</ul>
+<a class="contratar" href="https://wa.me/5516997767450">AGENDAR</a>
+</div>
+</section>
+
+<section id="treino">
+<h3>🏋#TREINO PERSONALIZADO PRESENCIAL#</h3>
+<div class="cards">
+
+<div class="card">
+<div class="titulo">*plano mensal presencial
+3 vezes na semana*
+</div>
+<div class="preco">R$750.00</div>
+<ul>
+<li> planos mensais</li>
+<li>Treino individual</li>
+<li>Ajustes e correções</li>
+<li>Do iniciante ao avançado</li>
+<li>para otimizar e ter melhores resultados</li>
+<li>Focado em alcançar seu objetivo alinhado com sua rotina</li>
+</ul>
+<a class="contratar" href="https://wa.me/5516997767450">AGENDAR</a>
+</div>
+<section id="treino">
+<h3>🏋#ACOMPANHAMENTO ONLINE#</h3>
+<div class="cards">
+
+<div class="card">
+<div class="titulo">*SILVER ONLINE*</div>
+<div class="preco">R$79.90</div>
+<ul>
+<li>Ajustes quinzenais</li>
+<li>Suporte prioritário whatsapp</li>
+<li>Aplicativo</li>
+<li>treino individualizado feito para você</li>
+</ul>
+<a class="contratar" href="https://wa.me/5516997767450">CONTRATAR</a>
+</div>
+
+<div class="card">
+<div class="titulo">*GOLD ONLINE*</div>
+<div class="preco">R$99.90</div>
+<ul>
+<li>Ajustes semanais</li>
+<li>Acompanhamento correção e suporte whatsapp</li>
+<li>aplicativo</li>
+<li>treino individualizado</li>
+<li>acompnhamento da evoluÇão</li>
+<li>avaliação de medidas online</li>
+</ul>
+<a class="contratar" href="https://wa.me/5516997767450">CONTRATAR</a>
+</div>
+
+<div class="card" style="border:2px solid #1d7a88">
+<div class="titulo">*ELITE ONLINE*⭐</div>
+<div class="preco">R$149.90</div>
+<ul>
+<li>Ajustes ilimitados</li>
+<li>Prioridade máxima whatsapp</li>
+<li>feedback em todos os treinos e ajustes</li>
+<li>Treino focado em seu objetivo</li>
+<li>Aplicativo com video de execução</li>
+<li>Avaliação fisica online</li>
+
+
+</ul>
+<a class="contratar" href="https://wa.me/5516997767450">QUERO O ELITE</a>
+</div>
+
+</div>
+</section>
+
+<section id="sobre">
+<h3>👤 Sobre mim</h3>
+<div class="card">
+<img src="perfil.jpg" style="width:100%;border-radius:14px;margin-bottom:15px">
+<p style="font-size:14px;line-height:1.6;color:#ddd">
+meu nome é Lucas tenho 35 anos e sou trainador fisico apaixonado por esse estilo de vida tendo qualificações para levar o melhor treino e método para sua rotina diaria. trabalho com seriedade, respeito,e responsabilidade.Desenvolvo o melhor planejamento para se adaptar ao seu objetivo."Não séra fácil mais se persistir garanto evolução do seu corpo e mente"
+</p>
+</div>
+</section>
+
+<section id="certificados">
+<h3>📜 Certificados</h3>
+<div class="galeria">
+<img src="cert1.jpg" onclick="abrir(this.src)">
+<img src="cert2.jpg" onclick="abrir(this.src)">
+</div>
+</section>
+
+<section id="experiencias">
+<h3>🔥 Experiências</h3>
+<div class="galeria">
+<img src="exp1.jpg" onclick="abrir(this.src)">
+<img src="exp2.jpg" onclick="abrir(this.src)">
+</div>
+</section>
+
+<footer>
+SE FOSSE FÁCIL TODOS FARIAM 💪 | ONE MORE REPETITION
+</footer>
+
+</div>
+
+<div class="modal" id="modal" onclick="fechar()">
+<img id="modalImg">
+</div>
+
+<a class="whatsapp" href="https://wa.me/5516997767450">WhatsApp</a>
+
+<script>
+function abrir(src){
+document.getElementById('modal').style.display='flex';
+document.getElementById('modalImg').src=src;
+}
+function fechar(){
+document.getElementById('modal').style.display='none';
+}
+</script>
+
+</body>
+</html>
